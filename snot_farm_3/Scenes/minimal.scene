@@ -165,6 +165,36 @@
           "StartAsleep": false
         }
       ]
+    },
+    {
+      "Id": "97c6a862-fa29-45ff-9203-666b9eb2e168",
+      "Name": "Player",
+      "Position": "100.901,34.66936,93.86891",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "SkinnedModelRenderer",
+          "AnimationGraph": null,
+          "BodyGroups": 341,
+          "BoneMergeTarget": null,
+          "CreateBoneObjects": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/citizen/citizen.vmdl",
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "CharacterController",
+          "Acceleration": 10,
+          "Bounciness": 0.3,
+          "GroundAngle": 45,
+          "Height": 64,
+          "IgnoreLayers": "",
+          "Radius": 16,
+          "StepHeight": 18
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -190,6 +220,6 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-03-03T23:15:08.5515869\u002B03:00",
+  "LastSaved": "2024-03-03T23:36:04.7788806\u002B03:00",
   "__references": []
 }

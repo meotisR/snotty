@@ -1,0 +1,35 @@
+{
+  "RootObject": {
+    "Id": "97c6a862-fa29-45ff-9203-666b9eb2e168",
+    "Name": "Player",
+    "Enabled": true,
+    "Components": [
+      {
+        "__type": "SkinnedModelRenderer",
+        "AnimationGraph": null,
+        "BodyGroups": 341,
+        "BoneMergeTarget": null,
+        "CreateBoneObjects": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/citizen/citizen.vmdl",
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
+        "__type": "CharacterController",
+        "Acceleration": 10,
+        "Bounciness": 0.3,
+        "GroundAngle": 45,
+        "Height": 64,
+        "IgnoreLayers": "",
+        "Radius": 16,
+        "StepHeight": 18
+      }
+    ]
+  },
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "__references": []
+}
