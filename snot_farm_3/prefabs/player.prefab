@@ -44,6 +44,9 @@
           "go": "97c6a862-fa29-45ff-9203-666b9eb2e168",
           "component_type": "SkinnedModelRenderer"
         }
+      },
+      {
+        "__type": "SnotPlayer"
       }
     ],
     "Children": [
