@@ -1,7 +1,7 @@
 {
   "RootObject": {
     "Id": "97c6a862-fa29-45ff-9203-666b9eb2e168",
-    "Name": "Player",
+    "Name": "player",
     "Enabled": true,
     "Components": [
       {
@@ -25,6 +25,53 @@
         "IgnoreLayers": "",
         "Radius": 16,
         "StepHeight": 18
+      },
+      {
+        "__type": "CitizenAnimationHelper",
+        "BodyWeight": 1,
+        "EyeSource": null,
+        "EyesWeight": 1,
+        "HeadWeight": 1,
+        "Height": 1,
+        "IkLeftFoot": null,
+        "IkLeftHand": null,
+        "IkRightFoot": null,
+        "IkRightHand": null,
+        "LookAt": null,
+        "LookAtEnabled": false,
+        "Target": {
+          "_type": "component",
+          "go": "97c6a862-fa29-45ff-9203-666b9eb2e168",
+          "component_type": "SkinnedModelRenderer"
+        }
+      }
+    ],
+    "Children": [
+      {
+        "Id": "39175c02-6c9a-4684-acc3-d86b0868e0f8",
+        "Name": "Camera",
+        "Position": "-127.33,0,132.2463",
+        "Rotation": "0,0.258819,0,0.9659261",
+        "Tags": "maincamera",
+        "Enabled": true,
+        "Components": [
+          {
+            "__type": "CameraComponent",
+            "BackgroundColor": "0.33333,0.46275,0.52157,1",
+            "ClearFlags": "All",
+            "FieldOfView": 60,
+            "IsMainCamera": true,
+            "Orthographic": false,
+            "OrthographicHeight": 1204,
+            "Priority": 1,
+            "RenderExcludeTags": "",
+            "RenderTags": "",
+            "TargetEye": "None",
+            "Viewport": "0,0,1,1",
+            "ZFar": 10000,
+            "ZNear": 10
+          }
+        ]
       }
     ]
   },

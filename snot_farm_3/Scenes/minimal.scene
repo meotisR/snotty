@@ -68,73 +68,9 @@
       ]
     },
     {
-      "Id": "3ee1c9f4-07be-4e0b-8b23-67bee2d8ec8a",
-      "Name": "Camera",
-      "Position": "-267.452,-379.653,297.7903",
-      "Rotation": "-0.1448582,0.2860239,0.4279631,0.8450171",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "CameraComponent",
-          "BackgroundColor": "0.33333,0.46275,0.52157,1",
-          "ClearFlags": "All",
-          "FieldOfView": 60,
-          "IsMainCamera": true,
-          "Orthographic": false,
-          "OrthographicHeight": 1204,
-          "Priority": 1,
-          "RenderExcludeTags": "",
-          "RenderTags": "",
-          "TargetEye": "None",
-          "Viewport": "0,0,1,1",
-          "ZFar": 10000,
-          "ZNear": 10
-        },
-        {
-          "__type": "Bloom",
-          "BloomColor": {
-            "color": [
-              {
-                "c": "1,1,1,1"
-              },
-              {
-                "t": 1,
-                "c": "1,1,1,1"
-              }
-            ],
-            "alpha": []
-          },
-          "BloomCurve": [
-            {
-              "y": 0.5
-            },
-            {
-              "x": 1,
-              "y": 1
-            }
-          ],
-          "Mode": "Additive",
-          "Strength": 0.5,
-          "Threshold": 0.5,
-          "ThresholdWidth": 0.5
-        },
-        {
-          "__type": "Tonemapping",
-          "ExposureCompensation": 0,
-          "MaximumExposure": 2,
-          "MinimumExposure": 1,
-          "Rate": 1
-        },
-        {
-          "__type": "Sharpen",
-          "Scale": 0.2
-        }
-      ]
-    },
-    {
       "Id": "02ee3c4a-b1b2-413e-9a54-f5a7992db9c7",
       "Name": "Cube",
-      "Position": "-19.65319,-0.5006561,50.905",
+      "Position": "-100,-100,25",
       "Enabled": true,
       "Components": [
         {
@@ -169,32 +105,8 @@
     {
       "Id": "97c6a862-fa29-45ff-9203-666b9eb2e168",
       "Name": "Player",
-      "Position": "100.901,34.66936,93.86891",
       "Enabled": true,
-      "Components": [
-        {
-          "__type": "SkinnedModelRenderer",
-          "AnimationGraph": null,
-          "BodyGroups": 341,
-          "BoneMergeTarget": null,
-          "CreateBoneObjects": false,
-          "MaterialGroup": null,
-          "MaterialOverride": null,
-          "Model": "models/citizen/citizen.vmdl",
-          "RenderType": "On",
-          "Tint": "1,1,1,1"
-        },
-        {
-          "__type": "CharacterController",
-          "Acceleration": 10,
-          "Bounciness": 0.3,
-          "GroundAngle": 45,
-          "Height": 64,
-          "IgnoreLayers": "",
-          "Radius": 16,
-          "StepHeight": 18
-        }
-      ]
+      "__Prefab": "prefabs/player.prefab"
     }
   ],
   "SceneProperties": {
@@ -220,6 +132,6 @@
   },
   "Title": "minimal",
   "Description": "",
-  "LastSaved": "2024-03-03T23:36:04.7788806\u002B03:00",
+  "LastSaved": "2024-03-03T23:51:27.3766811\u002B03:00",
   "__references": []
 }
