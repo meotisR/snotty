@@ -46,7 +46,19 @@
         }
       },
       {
-        "__type": "SnotPlayer"
+        "__type": "SnotPlayer",
+        "AnimationHelper": {
+          "_type": "component",
+          "go": "97c6a862-fa29-45ff-9203-666b9eb2e168",
+          "component_type": "CitizenAnimationHelper"
+        },
+        "Camera": {
+          "_type": "gameobject",
+          "go": "39175c02-6c9a-4684-acc3-d86b0868e0f8"
+        },
+        "JumpStrength": 400,
+        "RunSpeed": 250,
+        "WalkSpeed": 120
       }
     ],
     "Children": [
